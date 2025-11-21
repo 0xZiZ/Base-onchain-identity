@@ -64,39 +64,40 @@ http://localhost:5173
 ```
 Paste any Base wallet address → generate its identity card.
 
-🔒 Usage Notes & Privacy
 
-PNG export happens fully locally in the browser.
+## 🔒 Usage Notes & Privacy
 
-The app sends no data to any backend.
+-PNG export happens fully locally in the browser.
 
-Only BaseScan API calls are made to fetch public onchain data.
+-The app sends no data to any backend.
 
-Zero-activity wallets still generate a clean minimal card.
+-Only BaseScan API calls are made to fetch public onchain data.
 
-⚠️ Current Limitations
+-Zero-activity wallets still generate a clean minimal card.
 
-PNG export may exclude token/NFT images if external hosts block CORS.
+## ⚠️ Current Limitations
 
-Token/NFT counts are based on transfer logs, not exact contract calls.
+-PNG export may exclude token/NFT images if external hosts block CORS.
 
-High-rate API requests may produce temporary “NOTOK” responses.
+-Token/NFT counts are based on transfer logs, not exact contract calls.
 
-Badges and Builder Score are designed for visualization, not exact ranking.
+-High-rate API requests may produce temporary “NOTOK” responses.
 
-🛠️ Development
+-Badges and Builder Score are designed for visualization, not exact ranking.
 
-Framework: React + Vite
+## 🛠️ Development
 
-Styling: TailwindCSS
+-Framework: React + Vite
 
-Core logic: src/api/baseIdentityApi.js
+-Styling: TailwindCSS
 
-UI components: src/components/IdentityCard.jsx
+-Core logic: src/api/baseIdentityApi.js
 
-Export engine: src/utils/exportCard.js
+-UI components: src/components/IdentityCard.jsx
 
-👤 Credits
+-Export engine: src/utils/exportCard.js
 
-Built with ❤️ by ZiZ (0xZiZ)
-Follow on Base & Twitter for updates, new tools, and open-source drops.
+#👤 Credits
+
+-Built with ❤️ by ZiZ (RealZiZ)
+-Follow on Base & X(Twitter) for updates, new tools, and open-source drops.
