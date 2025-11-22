@@ -97,7 +97,7 @@ Paste any Base wallet address → generate its identity card.
 
 -Export engine: src/utils/exportCard.js
 
-#👤 Credits
+## 👤 Credits
 
 -Built with ❤️ by ZiZ (RealZiZ)
 -Follow on Base & X(Twitter) for updates, new tools, and open-source drops.
